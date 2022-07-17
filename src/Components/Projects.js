@@ -11,7 +11,7 @@ function Projects() {
                 <h1 className="subtitle">My Projects</h1>
                 <div className="project-list">
                     <div className="project">
-                        <img src={netflix} alt='img'/>
+                        <img src={netflix} alt='img' />
                         <div className="layer">
                             <h3>Top 5 Netflix Series</h3>
                             <p>It is basic level webpage that displays the top 5 netflix series.</p>
@@ -19,7 +19,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className="project">
-                        <img src={cctv} alt='img'/>
+                        <img src={cctv} alt='img' />
                         <div className="layer">
                             <h3>Criminal Face recognition system using CCTV camera</h3>
                             <p>This project is usefull to find the criminal who are elope by capturing them using cctv camera.</p>
@@ -27,7 +27,7 @@ function Projects() {
                         </div>
                     </div>
                     <div className="project">
-                        <img src={billing} alt='img'/>
+                        <img src={billing} alt='img' />
                         <div className="layer">
                             <h3>GST Billing application</h3>
                             <p>This application is used to generate the bill including gst tax on each product purchased by the customer.</p>

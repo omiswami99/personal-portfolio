@@ -6,13 +6,13 @@ import Skills from './Components/Skills.js';
 import Projects from './Components/Projects.js';
 import Contact from './Components/Contact.js';
 
-function App(){
+function App() {
     return (<>
-        <Header/>
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
+        <Header />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
         <div className="copyright">
             <p>Copyright warning | Made by @onkarswami </p>
         </div>

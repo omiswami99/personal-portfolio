@@ -3,25 +3,25 @@ import '../index.css';
 import me from '../images/me.png';
 
 
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-    
-      var tablink = '';
-      var tabcontent = '';
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
 
-      function openTab(tabname, event){
-          for(tablink of tablinks){
-            tablink.classList.remove("active");
-          }
+var tablink = '';
+var tabcontent = '';
 
-          for(tabcontent of tabcontents){
-            tabcontent.classList.remove("activeTab");
-          }
-        //   event.currentTarget.classList.add("active");
-          event.currentTarget.classList.add("active");
-          document.getElementById(tabname).classList.add("activeTab");
-        
-      }
+function openTab(tabname, event) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active");
+    }
+
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("activeTab");
+    }
+    //   event.currentTarget.classList.add("active");
+    event.currentTarget.classList.add("active");
+    document.getElementById(tabname).classList.add("activeTab");
+
+}
 
 
 
@@ -35,9 +35,9 @@ function About() {
                         <img src={me} alt="img1" />
                     </div>
                     <div className="about-col-2">
-                        <h1 className="subtitle">About Me</h1><br/><br/>
+                        <h1 className="subtitle">About Me</h1><br /><br />
                         <p>lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor sit amet, consectetur adipiscing
-                        lorem ipsum dolor sit amet, consectetur adipiscing
+                            lorem ipsum dolor sit amet, consectetur adipiscing
                         </p>
 
                         <div className="tab-titles">
@@ -48,9 +48,9 @@ function About() {
 
                         <div className="tab-contents activeTab" id="skills">
                             <ul>
-                                <li><span>Web Developer</span><br/> Blockchain</li>
-                                <li><span>Programmer</span><br/> React</li>
-                                <li><span>Good Listener</span><br/> Blockchain</li>
+                                <li><span>Web Developer</span><br /> Blockchain</li>
+                                <li><span>Programmer</span><br /> React</li>
+                                <li><span>Good Listener</span><br /> Blockchain</li>
                             </ul>
                         </div>
 
@@ -62,9 +62,9 @@ function About() {
 
                         <div className="tab-contents" id="education">
                             <ul>
-                                <li><span>2013-2018</span><br/> 5th to 10th</li>
-                                <li><span>2018-2021</span><br/> Diploma</li>
-                                <li><span>2021-2024</span><br/> B.E.</li>
+                                <li><span>2013-2018</span><br /> 5th to 10th</li>
+                                <li><span>2018-2021</span><br /> Diploma</li>
+                                <li><span>2021-2024</span><br /> B.E.</li>
                             </ul>
                         </div>
                     </div>
