@@ -1,5 +1,6 @@
 import React from 'react';
 import '../index.css';
+import me from '../images/me.png';
 
 
       var tablinks = document.getElementsByClassName("tab-links");
@@ -31,7 +32,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="about-col-1">
-                        <img src="../images/me.png" alt="img1" />
+                        <img src={me} alt="img1" />
                     </div>
                     <div className="about-col-2">
                         <h1 className="subtitle">About Me</h1><br/><br/>
