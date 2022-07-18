@@ -14,7 +14,7 @@ function App() {
         <Projects />
         <Contact />
         <div className="copyright">
-            <p>Copyright warning | Made by @onkarswami </p>
+            <p>Copyright © 2022 @onkarswami | All rights reserved </p>
         </div>
     </>);
 }
