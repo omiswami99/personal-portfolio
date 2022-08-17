@@ -36,7 +36,7 @@ function About() {
                     </div>
                     <div className="about-col-2">
                         <h1 className="subtitle">About Me</h1><br /><br />
-                        <p>I am Onkar Swami. I am currently studying B.E. in 2nd year engineering in Pune Institute of Computer Technology. I am highly interested in Web Devlopment and I am curious programmer and the concept of blockchain and web3 facinates me.
+                        <p>I am Onkar Swami. I am currently studying B.E. in 3rd year engineering in Pune Institute of Computer Technology. I am highly interested in Web Devlopment and I am curious programmer and the concept of blockchain and web3 facinates me.
                         </p>
 
                         <div className="tab-titles">
