@@ -31,7 +31,7 @@ function Projects() {
                         <div className="layer">
                             <h3>GST Billing application</h3>
                             <p>This application is used to generate the bill including gst tax on each product purchased by the customer.</p>
-                            <a href="http://billingapplicationpro.atwebpages.com/" target="_blank">Click here</a>
+                            <a href="http://billingapplicationpro.atwebpages.com/" target="blank">Click here</a>
                         </div>
                     </div>
                 </div>
